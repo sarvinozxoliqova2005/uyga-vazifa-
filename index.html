@@ -1,136 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-   <header>
-    <div class="container mx-auto py-[30px] hidden md:block">
+  </head>
+  <body>
+    <header>
+      <div class="container mx-auto py-[30px] hidden md:block">
         <div class="flex items-center justify-between">
-            <img src="./images/logo.svg" alt="">
-            <ul class="flex items-center justify-between gap-[60px] text-[#394149]">
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Careers</a>
-                </li>
-                <li>
-                    <a href="">Services</a>
-                </li>
-                <li>
-                    <a href="">Blog</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-                <button class="w-[173px] h-[52px] rounded-[30px] bg-[#F58A071A] font-bold text-[#F58A07] hover:text-[black] hover:bg-[orange] cursor-pointer ">Clone project</button>
-            <img class="w-[40px] md:hidden" src="https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png" alt="">
+          <img src="./images/logo.svg" alt="" />
+          <ul
+            class="flex items-center justify-between gap-[60px] text-[#394149]"
+          >
+            <li>
+              <a href="./pages/about.html">About</a>
+            </li>
+            <li>
+              <a href="./pages/careers.html">Careers</a>
+            </li>
+            <li>
+              <a href="./pages/services.html">Services</a>
+            </li>
+            <li>
+              <a href="./pages/blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+          <button
+            class="w-[173px] h-[52px] rounded-[30px] bg-[#F58A071A] font-bold text-[#F58A07] hover:text-[black] hover:bg-[orange] cursor-pointer"
+          >
+            Clone project
+          </button>
+          <img
+            class="w-[40px] hidden md:block"
+            src="https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png"
+            alt=""
+          />
         </div>
-    </div>
-   </header>
+      </div>
+    </header>
 
-   <main>
-    <section class="bg-[#DCEAF5]">
-        <div class="container mx-auto py-[90px] grid xl:grid-cols-2 grid lg:grid-cols  grid md:grid-cols  flex items-center justify-center">
-            <div class="ml-[60px]">
-                <h1 class="text-[64px] font-bold text-[#1D3444] leading-[72px]">Prosper with our <br> bespoke solutions</h1>
-                <p class="text-[18px] leading-[30px] text-[#5B5B5B] mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros elementum tristique</p>
-               <div class="gap-[40px]" > 
-                 <button class="w-[200px] h-[55px] rounded-[30px] bg-[#F58A07] text-white font-bold mt-[30px] cursor-pointer hover:text-black hover:bg-[orange] ">See Our Services</button>
-                 <button class="text-[#1D3444]">See All Services </button>
-               </div>
-               <p class="text-[18px] leading-[30px] text-[#39414980] mt-[60px]">Worked with 100+ Companies</p>
-               <div class="grid grid-cols-3 mt-[30px]" >
-                <a href="">
-                    <img class="w-[34px] h-[33px]" src="./images/logoipsum.png" alt="">
-                    <h1>logoipsum></h1>
-                </a>
-                <a href="">
-                    <img class="w-[34px] h-[33px]" src="./images/Vector.png" alt="">
-                    <h1>logoipsum</h1>
-                </a>
-                <a href="">
-                    <img class="w-[34px] h-[33px]" src="./images/logo-icon-2.png" alt="">
-                    <h1>Logoipsum</h1>
-                </a>
-               </div>
-            </div>
-            <img src="./images/hero.png" alt="">
-        </div>
-    </section>
-
-    <section>
-        <div class="container mx-auto py-[90px] ">
-            <h1 class="lg:text-[48px] sm:text-[36px] font-bold text-black leading-[56px] ml-[30px] flex items-center justify-between">We help more than 1500 <br> companies from all sectors</h1>
-            <p class="lg:text-[18px] sm:text-[12px] font-500 leading-[30px] text-[#5B5B5B] mt-[30px] ml-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros <br> blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et <br> pellentesque.
-
+    <main>
+      <section class="bg-[#DCEAF5]">
+        <div
+          class="container mx-auto py-[90px] grid 2xl:grid-cols-2 grid xl:grid-cols grid lg:grid-cols md:grid-cols flex items-center justify-center"
+        >
+          <div class="ml-[60px]">
+            <h1 class="text-[64px] font-bold text-[#1D3444] leading-[72px]">
+              Prosper with our <br />
+              bespoke solutions
+            </h1>
+            <p class="text-[18px] leading-[30px] text-[#5B5B5B] mt-[30px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+              Suspendisse varius enim in eros elementum tristique
             </p>
-            
-                <div class="grid lg:grid-cols-3 grid md:grid-cols-2 gap-[60px] ml-[20px] flex items-center justify-center"> 
-                    <div>
-                    <img class="w-[400px] h-[242px] rounded-[20px] mt-[90px]" src="./images/rasm1.png" alt="">
-                <h1 class="text-[24px] font-bold text-black mt-[30px]">Business strategy</h1>
-                <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur sit amet eros blandit, <br> hendrerit elit et, 
-
-                </p>
-                 <a class="flex items-center gap-[20px] mt-[30px]" href="">
-                    <h1 class="text-[#F58A07] font-500">Learn More</h1>
-                    <img class="text-[#F58A07] w-[22px] h-[10px]" src="./images/Icon.png" alt="">
-                 </a>
-                </div>
-
-                <div>
-                    <img class="w-[400px] h-[242px] rounded-[20px] mt-[90px]" src="./images/rasm2.png" alt="">
-                <h1 class="text-[24px] font-bold text-black mt-[30px]">Digitalization</h1>
-                <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur sit amet eros blandit, <br> hendrerit elit et, 
-
-                </p>
-                 <a class="flex items-center gap-[20px] mt-[30px]" href="">
-                    <h1 class="text-[#F58A07] font-500">Learn More</h1>
-                    <img class="text-[#F58A07] w-[22px] h-[10px]" src="./images/Icon.png" alt="">
-                 </a>
-                </div>
-
-                <div>
-                    <img class="w-[400px] h-[242px] rounded-[20px] mt-[90px]" src="./images/rasm3.png" alt="">
-                <h1 class="text-[24px] font-bold text-black mt-[30px]">Risk assessment</h1>
-                <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur sit amet eros blandit, <br> hendrerit elit et, 
-
-                </p>
-                 <a class="flex items-center gap-[20px] mt-[30px]" href="">
-                    <h1 class="text-[#F58A07] font-500">Learn More</h1>
-                    <img class="text-[#F58A07] w-[22px] h-[10px]" src="./images/Icon.png" alt="">
-                 </a>
-                </div>
-                </div>
+            <div class="gap-[40px]">
+              <button
+                class="w-[200px] h-[55px] rounded-[30px] bg-[#F58A07] text-white font-bold mt-[30px] cursor-pointer hover:text-black hover:bg-[orange]"
+              >
+                See Our Services
+              </button>
+              <button class="text-[#1D3444]">See All Services</button>
+            </div>
+            <p class="text-[18px] leading-[30px] text-[#39414980] mt-[60px]">
+              Worked with 100+ Companies
+            </p>
+            <div class="grid grid-cols-3 mt-[30px]">
+              <a href="">
+                <img
+                  class="w-[34px] h-[33px]"
+                  src="./images/logoipsum.png"
+                  alt=""
+                />
+                <h1>logoipsum></h1>
+              </a>
+              <a href="">
+                <img
+                  class="w-[34px] h-[33px]"
+                  src="./images/Vector.png"
+                  alt=""
+                />
+                <h1>logoipsum</h1>
+              </a>
+              <a href="">
+                <img
+                  class="w-[34px] h-[33px]"
+                  src="./images/logo-icon-2.png"
+                  alt=""
+                />
+                <h1>Logoipsum</h1>
+              </a>
+            </div>
+          </div>
+          <img src="./images/hero.png" alt="" />
         </div>
-    </section>
+      </section>
 
-    <section class="bg-[#EDF7FF]">
+      <section>
         <div class="container mx-auto py-[90px]">
-            <div class="grid grid-cols-2">
-                <h1 class="font-bold text-[black] text-[30px] leading-[44px]">We are building software solution <br> that solves your business <br> challenges
+          <h1
+            class="lg:text-[48px] md:text-[40px] sm:text-[36px] font-bold text-black leading-[56px] ml-[60px] flex items-center justify-between"
+          >
+            We help more than 1500 <br />
+            companies from all sectors
+          </h1>
+          <p
+            class="lg:text-[18px] md:text-[14px] sm:text-[12px] font-500 leading-[30px] text-[#5B5B5B] mt-[30px] ml-[60px]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            sit amet eros <br />
+            blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit
+            tellus et <br />
+            pellentesque.
+          </p>
 
-                </h1>
-                <p class="text-[18px] leading-[30px] font-500 text-[#1D3444]"> Lorem ipsum dolor sit  amet, consectetur adipiscing elit. Curabitur sit <br> amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo <br> suscipit tellus et pellentesque.
-
-                </p>
+          <div
+            class="grid lg:grid-cols-3 grid md:grid-cols-2 gap-[60px] ml-[60px] flex items-center justify-center"
+          >
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm1.png"
+                alt=""
+              />
+              <h1 class="text-[24px] font-bold text-black mt-[30px]">
+                Business strategy
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
             </div>
 
-            <div class="bg-[#FFFFFF] w-[401px] h-[277px] rounded-[20px]">
-                <img src="./images/Icon-2.png" alt="" srcset="">
-                <h1>Invoicing</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur sit amet eros <br> blandit, hendrerit elit et, 
-
-                </p>
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm2.png"
+                alt=""
+              />
+              <h1 class="text-[24px] font-bold text-black mt-[30px]">
+                Digitalization
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
             </div>
+
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm3.png"
+                alt=""
+              />
+              <h1 class="text-[24px] font-bold text-black mt-[30px]">
+                Risk assessment
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
         </div>
-    </section>
-   </main>
-</body>
+      </section>
+
+      <section class="bg-[#EDF7FF]">
+        <div class="container mx-auto py-[90px]">
+          <div
+            class="grid 2xl:grid-cols-2 xl:grid-cols lg:grid-cols md:grid-cols flex items-center justify-center"
+          >
+            <h1
+              class="font-bold text-[black] lg:text-[30px] md:text-[28px] sm:text-[25px] leading-[44px] ml-[40px]"
+            >
+              We are building software solution <br />
+              that solves your business <br />
+              challenges
+            </h1>
+            <p
+              class="lg:text-[18px] md:text-[16px] sm:text-[14px] leading-[30px] font-500 text-[#1D3444] ml-[40px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              sit <br />
+              amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+              commodo <br />
+              suscipit tellus et pellentesque.
+            </p>
+          </div>
+
+          <div
+            class="grid lg:grid-cols-3 grid md:grid-cols-2 gap-[60px] flex items-center justify-center ml-[20px]"
+          >
+            <div
+              class="bg-[#FFFFFF] w-[401px] h-[277px] rounded-[20px] mt-[90px]"
+            >
+              <img
+                class="pl-[30px] pt-[40px]"
+                src="./images/Icon-2.png"
+                alt=""
+                srcset=""
+              />
+              <h1 class="text-[24px] text-black font-bold pl-[30px] pt-[30px]">
+                Invoicing
+              </h1>
+              <p class="font-600 text-[#5B5B5B] pl-[30px] pt-[10px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros <br />
+                blandit, hendrerit elit et,
+              </p>
+            </div>
+
+            <div
+              class="bg-[#FFFFFF] w-[401px] h-[277px] rounded-[20px] mt-[90px]"
+            >
+              <img
+                class="pl-[30px] pt-[40px]"
+                src="./images/Icon-2.png"
+                alt=""
+                srcset=""
+              />
+              <h1 class="text-[24px] text-black font-bold pl-[30px] pt-[30px]">
+                Support
+              </h1>
+              <p class="font-600 text-[#5B5B5B] pl-[30px] pt-[10px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros <br />
+                blandit, hendrerit elit et,
+              </p>
+            </div>
+
+            <div
+              class="bg-[#FFFFFF] w-[401px] h-[277px] rounded-[20px] mt-[90px]"
+            >
+              <img
+                class="pl-[30px] pt-[40px]"
+                src="./images/Icon-2.png"
+                alt=""
+                srcset=""
+              />
+              <h1 class="text-[24px] text-black font-bold pl-[30px] pt-[30px]">
+                Surveying
+              </h1>
+              <p class="font-600 text-[#5B5B5B] pl-[30px] pt-[10px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros <br />
+                blandit, hendrerit elit et,
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container mx-auto py-[90px] grid md:grid-cols-2 2xl:grid-cols xl:grid-cols lg:grid-cols flex items-center justify-center pl-[60px]"
+        >
+          <div>
+            <div>
+              <h1 class="md:text-[48px] sm:text-[42px] font-bold text-black">
+                The energy of a start-up <br />
+                combined with 30 years <br />
+                of experience.
+              </h1>
+              <p
+                class="md:text-[18px] sm:text-[14px] leading-[30px] font-500 text-[#5B5B5B] mt-[30px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+                Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                <br />
+                purus. Vivamus commodo suscipit tellus et <br />
+                pellentesque.
+              </p>
+              <div
+                class="grid md:grid-cols-2 2xl:grid-cols xl:grid-cols lg:grid-cols mt-[60px]"
+              >
+                <a href="">
+                  <h1 class="text-[36px] leading-[50px] text-[#F58A07]">15+</h1>
+                  <h2 class="text-[24px] font-600 text-[black] mt-[10px]">
+                    Awards received
+                  </h2>
+                  <p class="font-500 text-[#5B5B5B] leading-[28px] mt-[20px]">
+                    Lorem ipsum dolor sit amet, <br />
+                    consectetur adipiscin. Curabitur <br />
+                    sit amet eros elit et.
+                  </p>
+                </a>
+                <a class="mt-[30px]" href="">
+                  <h1 class="text-[36px] leading-[50px] text-[#F58A07]">
+                    500+
+                  </h1>
+                  <h2 class="text-[24px] font-600 text-black mt-[10px]">
+                    Clients served
+                  </h2>
+                  <p class="font-500 text-[#5B5B5B] leading-[28px] mt-[20px]">
+                    Lorem ipsum dolor sit amet, <br />
+                    consectetur adipiscin. Curabitur <br />
+                    sit amet eros elit et.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <img
+            class="md:w-[637px] h-[667px] rounded-[20px] mt-[40px]"
+            src="./images/qiz.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="bg-[#EDF7FF]">
+        <div class="container mx-auto py-[90px] pl-[60px]">
+          <div class="flex items-center">
+            <ul
+              class="grid lg:grid-cols-3 md:grid-cols-2 gap-[60px] flex items-center justify-center"
+            >
+              <li
+                class="w-[194px] h-[40px] rounded-[30px] bg-[white] font-600 text-[#F58A07] flex items-center pl-[20px] hover:text-[white] hover:bg-[orange] cursor-pointer"
+              >
+                <a href="">Business strategy</a>
+              </li>
+              <li
+                class="w-[155px] h-[40px] rounded-[30px] border border-[#A8BCCC] font-600 text-[#0632554D] flex items-center pl-[20px] cursor-pointer hover:text-[black] hover:bg-[aqua] hover:border-[aqua]"
+              >
+                <a href="">Digitalization</a>
+              </li>
+              <li
+                class="w-[183px] h-[40px] rounded-[30px] border border-[#A8BCCC] font-600 text-[#0632554D] flex items-center pl-[20px] cursor-pointer hover:text-[black] hover:bg-[aqua] hover:border-[aqua]"
+              >
+                <a href="">Risk assessment</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="grid 2xl:grid-cols-2 xl:grid-cols lg:grid-cols md:grid-cols mt-[90px]"
+          >
+            <div>
+              <h1
+                class="lg:text-[48px] md:text-[45px] sm:text-[40px] font-bold text-black leading-[56px]"
+              >
+                Helping clients with <br />
+                research and strategy <br />
+                for their business
+              </h1>
+              <p
+                class="lg:text-[20px] md:text-[18px] sm:text-[16px] font-500 leading-[30px] text-[#5B5B5B] mt-[30px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+                Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                <br />
+                purus. Vivamus commodo suscipit tellus et <br />
+                pellentesque. <br />
+                <br />
+
+                Mattis purus. Vivamus commodo suscipit tellus et <br />
+                pellent. Curabitur sit amet eros blan esque.
+              </p>
+              <a class="flex items-center gap-[20px] mt-[60px]" href="">
+                <h1 class="font-500 text-[#F58A07]">See all services</h1>
+                <img src="./images/Icon.png" alt="" />
+              </a>
+            </div>
+            <img
+              class="w-[472px] h-[466px] rounded-[20px] mt-[30px]"
+              src="./images/Image-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mx-auto py-[90px]">
+          <div class="grid lg:grid-cols-2">
+            <div>
+              <img
+                class="lg:w-[900px] h-[500px] md:w-[700px] h-[300px]"
+                src="./images/Image-3.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="bg-[#F58A07] lg:w-[900px] h-[500px] md:w-[700px h-[300px]] pt-[120px] pl-[120px]"
+            >
+              <h1 class="text-[48px] font-bold text-white leading-[56px]">
+                Energy of a start-up <br />
+                combined with 30 <br />
+                years of experience.
+              </h1>
+              <button
+                class="w-[216px] h-[54px] rounded-[30px] bg-[white] font-600 text-[#F58A07] mt-[60px] cursor-pointer hover:text-[black] hover:bg-[aquamarine]"
+              >
+                See Job Vacancies
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container mx-auto py-[90px] grid md:grid-cols-2 sm:grid-cols flex items-center"
+        >
+          <div>
+            <h1
+              class="ml-[60px] text-[48px] font-bold text-black leading-[56px]"
+            >
+              Finsweet was a dream <br />
+              to work with
+            </h1>
+            <p
+              class="ml-[60px] text-[20px] font-500 leading-[30px] text-[#5B5B5B] mt-[30px]"
+            >
+              Maecenas efficitur scelerisque lorem, et varius lacus <br />
+              tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis
+              <br />
+              vel vel orci. Vivamus eleifend nec felis vel auctor.
+            </p>
+            <div>
+              <a class="flex items-center ml-[60px]" href="">
+                <img
+                  class="w-[80px] h-[80px] rounded-[50px] mt-[60px]"
+                  src="./images/e8cfb696d1af4e76a8b71332d18bb7b27737ca22.png"
+                  alt=""
+                />
+                <h1
+                  class="mt-[70px] ml-[30px] text-[24px] font-[500] text-[#063255]"
+                >
+                  Chikelu Neo <br />
+                  <p class="font-500 text-[18px] text-[#F58A07]">
+                    CEO at MazeAI
+                  </p>
+                </h1>
+              </a>
+            </div>
+          </div>
+          <img
+            class="w-[650px] h-[650px] rounded-[20px] mt-[30px]"
+            src="./images/4d8235e48c003f8591c2c35b597aa4cb377470d2.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="bg-[#DCEAF5]">
+        <div class="container mx-auto py-[90px]">
+          <h1 class="text-[48px] font-bold text-black ml-[60px]">
+            Latest Blog & News
+          </h1>
+
+          <div
+            class="grid xl:grid-cols-3 lg:grid-cols-2 flex items-center gap-[60px] ml-[60px]"
+          >
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm1.png"
+                alt=""
+              />
+              <h1
+                class="text-[24px] font-bold text-black mt-[30px] leading-[36px]"
+              >
+                Why you have to digitalize in <br />
+                2021
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm2.png"
+                alt=""
+              />
+              <h1
+                class="text-[24px] font-bold text-black mt-[30px] leading-[36px]"
+              >
+                Our internal process and <br />
+                longerm vision
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div>
+              <img
+                class="w-[400px] h-[242px] rounded-[20px] mt-[90px]"
+                src="./images/rasm3.png"
+                alt=""
+              />
+              <h1
+                class="text-[24px] font-bold text-black mt-[30px] leading-[36px]"
+              >
+                Helping the next generation <br />
+                of leaders
+              </h1>
+              <p class="text-[24px] font-500 text-[#5B5B5B] mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Curabitur sit amet eros blandit, <br />
+                hendrerit elit et,
+              </p>
+              <a class="flex items-center gap-[20px] mt-[30px]" href="">
+                <h1 class="text-[#F58A07] font-500">Learn More</h1>
+                <img
+                  class="text-[#F58A07] w-[22px] h-[10px]"
+                  src="./images/Icon.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="bg-[#063255]">
+        <div class="container mx-auto py-[90px] ">
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 flex items-center ml-[100px]">
+                    <div>
+                <img class="w-[120px] h-[24px] " src="./images/Logo-2.svg" alt="">
+                <h1 class="text-[36px] font-bold leading-[44px] mt-[30px] text-white">Bespoke software <br> solutions</h1>
+
+                <div class=" flex items-center gap-[20px] mt-[20px]">
+                    <img class="w-[20px] h-[20px]" src="https://icon-library.com/images/facebook-icon-transparent-png/facebook-icon-transparent-png-2.jpg" alt="">
+                
+                    <img class=" w-[20px] h-[20px] "src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt="">
+                
+                
+                    <img class="w-[20px] h-p[20px]" src="https://www.pngmart.com/files/13/Instagram-Logo-PNG-Pic.png" alt="">
+                
+                    <img class="w-[20px] h-[20px]" src="https://static.vecteezy.com/system/resources/previews/018/930/695/non_2x/twitter-logo-twitter-icon-transparent-free-free-png.png" alt="">
+                </div>
+                </div>
+
+                <div class="flex items-center  gap-[80px] mt-[30px]">
+                    <ul>
+                        <li class="text-[18px] font-bold text-white">
+                            <a href="">Company</a>
+                        </li>
+                        <li class="text-white mt-[20px]">
+                            <a href="">About Us</a>
+                        </li>
+                    <li class="text-white mt-[10px]"> 
+                        <a href="">Careers</a>
+                    </li>
+                    <li class="text-white mt-[10px]">
+                        <a href="">Services</a>
+                    </li>
+                    <li class="text-white mt-[10px]">
+                        <a href="">Blog</a>
+                    </li>
+                    </ul>
+
+    
+                    <ul>
+                        <li class="text-[18px] font-bold text-white">
+                            <a href="">Connect</a>
+                        </li>
+                        <li class="text-white mt-[20px]">
+                            <a href="">hi@finsweet.com</a>
+                        </li>
+                        <li class="text-white mt-[10px]">
+                            <a href="">+(123) 456-7890</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="mt-[30px]">
+                    <h1 class="text-[18px] font-bold text-white">Join Newsletter</h1>
+                   <input class="w-[342px] h-[54px] bg-white rounded-[30px] pl-[30px] mt-[30px]" id="email" placeholder="Type email here" type="text"> <br>
+                    <button class="w-[156px] h-[54px] bg-[#F58A07] rounded-[30px] font-bold text-[white] hover:text-[black] hover:bg-[orange] cursor-pointer mt-[30px]">Subscribe</button>
+                </div>
+                </div>
+        </div>
+    </footer>
+  </body>
 </html>
